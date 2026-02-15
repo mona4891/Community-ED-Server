@@ -1,0 +1,124 @@
+{
+  "maps": [
+    {
+      "displayName": "Diamondback",
+      "mapName": "s3d_avalanche"
+    },
+    {
+      "displayName": "Edge",
+      "mapName": "s3d_edge"
+    },
+    {
+      "displayName": "Guardian",
+      "mapName": "guardian"
+    },
+    {
+      "displayName": "High Ground",
+      "mapName": "deadlock"
+    },
+    {
+      "displayName": "Icebox",
+      "mapName": "s3d_turf"
+    },
+    {
+      "displayName": "Last Resort",
+      "mapName": "zanzibar"
+    },
+    {
+      "displayName": "Narrows",
+      "mapName": "chill"
+    },
+    {
+      "displayName": "Reactor",
+      "mapName": "s3d_reactor"
+    },
+    {
+      "displayName": "Sandtrap",
+      "mapName": "shrine"
+    },
+    {
+      "displayName": "Standoff",
+      "mapName": "bunkerworld"
+    },
+    {
+      "displayName": "The Pit",
+      "mapName": "cyberdyne"
+    },
+    {
+      "displayName": "Valhalla",
+      "mapName": "riverworld"
+    }
+  ],
+  "types": [
+    {
+      "displayName": "Castle Wars+",
+      "typeName": "Castle Wars",
+      "modPack": "Fast Vehicles",
+      "randomChance": 0.1,
+	  "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 0",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+        {
+          "displayName": "Tundra Wars",
+          "mapName": "Tundra Wars"
+        },
+        {
+          "displayName": "Ruined Castle",
+          "mapName": "Ruined Castle"
+        },
+        {
+          "displayName": "Rainbow Castle",
+          "mapName": "Rainbow Castle"
+        },
+        {
+          "displayName": "Cursed Wars 0.7",
+          "mapName": "Cursed Wars 0.7"
+        },
+		{
+          "displayName": "Fast CW 1.0",
+          "mapName": "Fast CW 1.0"
+        },
+		{
+          "displayName": "Fast CW 1.0",
+          "mapName": "Fast CW 1.0"
+        }
+		]
+    },
+	{
+      "displayName": "Demo Derby +",
+      "typeName": "Demo Derby",
+      "modPack": "Fast Vehicles",
+      "randomChance": 0.1,
+	  "commands": [
+        "Server.Sprint 1",
+        "Server.UnlimitedSprint 1",
+        "Server.AssassinationEnabled 0",
+        "Server.TeamSize 1",
+        "Server.PodiumEnabled 1",
+        "Server.EmotesEnabled 1",
+        "Server.EmotesDuringPodiumEnabled 1",
+        "Server.KillCommandEnabled 1",
+        "Server.KillCommandDuringPodiumEnabled 1",
+		"Server.NumberOfTeams 2",
+		"Time.GameSpeed 1"
+      ],
+      "specificMaps": [
+        {
+          "displayName": "Demo Derby +",
+          "mapName": "Demo Derby +"
+        }
+		]
+    }
+  ]
+}
