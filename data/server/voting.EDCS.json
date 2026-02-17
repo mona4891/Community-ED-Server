@@ -67,7 +67,8 @@
         "Server.KillCommandEnabled 0",
         "Server.KillCommandDuringPodiumEnabled 1",
 		"Server.NumberOfTeams 2",
-		"Time.GameSpeed 1"
+		"Time.GameSpeed 1",
+		"Voting.ReloadJson"
       ],
       "specificMaps": [
         {
@@ -129,7 +130,9 @@
         "Server.KillCommandEnabled 1",
         "Server.KillCommandDuringPodiumEnabled 1",
 		"Server.NumberOfTeams 2",
-		"Time.GameSpeed 1"
+		"Voting.ReloadJson",
+		"Time.GameSpeed 1",
+		"Voting.ReloadJson"
       ],
       "specificMaps": [
 		{
