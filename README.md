@@ -1,4 +1,4 @@
-Heyo it's A Dude/Markus, this ReadMe aims to explain and tutorialize how to edit the Community Server files here in this repository.
+Heyo it's Markus/A Dude, this ReadMe aims to explain and tutorialize how to edit the Community Server files here in this repository.
 I've sectioned things in the followng chapters:
 
 1. How Server Files Work
@@ -23,8 +23,7 @@ In the ED directory, inside the "data" folder, there are three main folders pert
 
 ‎ 
 
-"map_variants" and "game_variants" contain, respectively, all map and variant files which are housed in their own folders adequately named to each map/variant.
-These ED especific files are typically named "sandbox.map" or "variant.koth". Make sure to not mix these files up in different folders.
+"map_variants" and "game_variants"  list all map and game variant files, respectively. Each file is stored in its own folder, which should be clearly named after the corresponding map or variant (as named in game on custom game menu). These ED-specific files are typically named "sandbox.map" or "variant.koth". Be careful not to place these files in the wrong folders, as mixing them up can cause a lot of confusion when setting up the server rotation.
 <img width="1160" height="280" alt="image" src="https://github.com/user-attachments/assets/8bbd435c-3bda-412b-94e7-eeef05e493ba" />
 <img width="1158" height="795" alt="image" src="https://github.com/user-attachments/assets/9445685c-55de-421e-a469-efb699a03390" />
 
@@ -34,7 +33,7 @@ These ED especific files are typically named "sandbox.map" or "variant.koth". Ma
 
 #  **2. Managing GameMode Rotation (Mods included):**
 
-The GameMode Rotation in a server is mainly controlled by the "voting.json" file. Aside from the initial set of Core Maps (Valhalla, Standoff, etc...) in the "maps" section that you'll find at the beggining of the file's text, each GameMode is inserted afterwards in the "types" section in the following format:
+The GameMode rotation on a server is primarily controlled by the "voting.json" file. At the beginning of this file, you’ll find a "maps" section that defines the initial set of core maps (such as Valhalla, Standoff, etc.). After this section, each GameMode is added under the "types" section, using the following format:
 
 ```
 {
@@ -122,7 +121,7 @@ The "modPack" name utilized in the "voting.json" must comply with the one used i
 
 ‎ 
 
-The download links, as seen in the example above, were given by ED discord moderators and modders. Unless available from another source (currently you can use Buckarooo's ED Fileshare), I reccomend consulting those people if you're looking for download links to any mods.
+The download links, as seen in the example above, were given by ED discord moderators and modders. Unless available from another source (currently you can use the Dewrito Share  site https://fileshare.zgaf.io), I reccomend consulting those people if you're looking for download links to any mods.
 
 
 ‎ 
@@ -156,14 +155,13 @@ After loging in and having linked the account in the GitHub Desktop app you will
 Once that is done, choose a folder in your local PC to house these repository files.
 
 
-At this point, the editing process is fully functional, no need to set-up anything else. The following will only be in reference to how the file editing process should typically work depending on what you wish to do:
+At this point, the editing process is fully functional, no need to set-up anything else. The only thing to keep in mind when making changes is the following procedure:
+1. Open GitHub Desktop
+2. Fetch Origin (To refresh local files)
+3. Make changes
+4. Appropriately Name and write the description of the changes in your commit
+5. Send Commit to main fork
 
-## **Adding a map the GameMode Rotation**
-
-In the "map_variants" fodler, you will create a new folder and name it according to the map of this new GameMode you are adding, then placing the map file ("sandbox.map") inside it.
+That's all really. Any and all communication in regards to server files are to be done externally, aka. most likely one of the ED discords. If anything major happens in terms of upkeep or moderation of these server files, please do contact me (Markus/A Dude on discord) (I'll probably know about it, but user feedback always gives better insight into the problem).
 
 
-In the "game_variants" fodler, you will create a new folder and name it according to the variant of this new GameMode you are adding, then placing the variant file ("variant.x") inside it.
-
-
-Opening the "voting.json" file in the "server" folder, you will copy and paste the typical GameMode format and edit each text box to fit your new GameMode addition. Make sure to have capitalization be the same as was used in the map and variant folders.
