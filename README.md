@@ -188,6 +188,8 @@ Once I merge the Pull Request, it is officially integrated into the main reposit
 <img width="1426" height="418" alt="image" src="https://github.com/user-attachments/assets/e8242c68-f100-46e4-baaa-9477a2a4e834" />
 
 
+Also, considering the possibility of multiple pull requests at the same time, we may have several merging conflicts. If this does ever happen, I will delete all conflicting Pull Requests and personally make all changes to the Server files according to each of the commit changes, in order by which pull request was published first to last.
+
 
 1. Open GitHub Desktop
 2. Pull/Fetch Origin (To refresh local files)
