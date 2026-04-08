@@ -81,68 +81,6 @@
 		]
     },
 	{
-      "displayName": "Fatkid",
-      "typeName": "Fatkid",
-      "modPack": "Customization++",
-	  "minPlayersAllowed": 1,
-	  "maxPlayersAllowed": 16,
-	  "commands": [
-        "Server.Sprint 1",
-        "Server.UnlimitedSprint 1",
-        "Server.AssassinationEnabled 0",
-        "Server.TeamSize 1",
-        "Server.PodiumEnabled 1",
-        "Server.EmotesEnabled 1",
-        "Server.EmotesDuringPodiumEnabled 1",
-        "Server.KillCommandEnabled 0",
-        "Server.KillCommandDuringPodiumEnabled 1",
-		"Server.NumberOfTeams 2",
-		"Time.GameSpeed 1"
-      ],
-      "specificMaps": [
-        {
-          "displayName": "Big Smoke Redux",
-          "mapName": "Big Smoke Redux"
-        },
-        {
-          "displayName": "Devoid",
-          "mapName": "Devoid"
-        },
-        {
-          "displayName": "Glacial",
-          "mapName": "Glacial"
-        },
-        {
-          "displayName": "Frozen Fat Tits",
-          "mapName": "Frozen Fat Tits"
-        },
-        {
-          "displayName": "Cerberus",
-          "mapName": "Cerberus"
-        },
-        {
-          "displayName": "Lockdown",
-          "mapName": "Lockdown"
-        },
-        {
-          "displayName": "Fatkid Fort 3",
-          "mapName": "Fatkid Fort 3"
-        },
-        {
-          "displayName": "Fat Levelz",
-          "mapName": "Fat Levelz"
-        },
-        {
-          "displayName": "Fat Levelz 2",
-          "mapName": "Fat Levelz 2"
-        },
-        {
-          "displayName": "Breached",
-          "mapName": "Breached"
-        }
-		]
-    },
-	{
       "displayName": "Hot Pursuit",
       "typeName": "Hot Pursuit",
       "modPack": "Customization++",
