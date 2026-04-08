@@ -133,13 +133,17 @@ The download links, as seen in the example above, were given by ED discord moder
 I'm assuming, much like me, most people haven't used GitHub at all. So as a first, here's a basic ass explanatory text about how it generally works:
 
 
-> This repository (this folder of files) is made public so that anyone may see it, and by contacting me I'll add your account to the author list which will make you able to edit these files. 
+> This repository (this folder of files) is made public so that anyone may see it. You will clone this repository locally to your computer and edit those local files. By editing these files you will create a "fork" of the Community Server repository (your own version of the "main" repository). You can submit your changes to the "main" repository by creating a pull request, which will be reviewd by me (to check for errors/bitcoin miners) before accepted and merged into the main repository, which will make your changes official.
 
 
-> How that editing is done is by way of sending "commits" to the repository. With the GitHub Desktop app you'll locally download the repository files, allowing you to change them as you see fit, the app will automatically recognize all these changes and group them up in a "commit".
-
-
-> The way you can make those changes affect the main repository is by "pushing" the commit. So once that commit has been pushed to the main repository, the files will have been updated, prompting every other user to "pull" those new files so that they re-download the files in the new up to date version of the repository.
+> How these changes will be done is mainly through the GitHub Desktop app.
+> 1. You will log in to your GitHub account
+> 2. You will clone/download the repository files (URL: https://github.com/A-Dude101/Community-ED-Server), allowing you to change them as you see fit
+> 3. Pull from origin (refresh your files so that they match the "main" repository)
+> 4. The app will automatically recognize all these changes you make, grouping them up in a "commit" to you "fork"
+> 5. Due to not being a main author of the main repo, it will also prompt you to create a pull request for me to review and then merge your "fork" to the main repository.
+>
+>    All in all, GitHub desktop just makes things easier for you to make these changes, I highly encourage using it.
 
 ‎ 
 ‎ 
@@ -149,19 +153,48 @@ As a first, make sure to create a GitHub account and download GitHub Desktop, li
 <img width="1649" height="1020" alt="image" src="https://github.com/user-attachments/assets/07c24368-0470-41fc-b221-da72281a1210" />
 
 
-After loging in and having linked the account in the GitHub Desktop app you will need to download this repository to you local PC storage. Clicking on the "File" tab up top, then on "Clone Repository..." you must only fill in the Repository URL with the following link: 
+After loging in and having linked the account in the GitHub Desktop app you will need to download this repository to you local PC storage. Clicking on the "File" tab up top, then on "Clone Repository..." you must only fill in the Repository URL with the following link: https://github.com/A-Dude101/Community-ED-Server
+Once that is done, choose a folder in your local PC to house these repository files (it must be an empty folder)
+
+<img width="745" height="436" alt="image" src="https://github.com/user-attachments/assets/1073cc4b-9b5e-4076-b221-63b6c5f789db" />
 
 
-Once that is done, choose a folder in your local PC to house these repository files.
 
 
-At this point, the editing process is fully functional, no need to set-up anything else. The only thing to keep in mind when making changes is the following procedure:
+At this point, the editing process is fully functional. All changes you make will be grouped up in an action called "commit". You will be prompted to "commit" to main, but will not be able to considering you are not the author of the Community Server repository. For this you will be prompted to make your own "fork" (copy) of that repository, as seen below
+<img width="824" height="508" alt="Captura de tela 2026-04-08 092128" src="https://github.com/user-attachments/assets/60100af2-9208-4dca-bba6-2c76cdefce8d" />
+
+
+
+Having made your commit onto your own fork of the Community Server repository, you will be prompted to "Push Origin", this simply means to make your commit changes official in your own fork. It'll look as it does below, simply press push origin to confirm your commit.
+<img width="1638" height="1001" alt="image" src="https://github.com/user-attachments/assets/0462afff-4f0b-48c6-80b2-34735637d170" />
+
+
+
+Now that you have your fork with the changes you wish to see, you need to create a pull request so that i may review your changes and adopt them to the actual Community Server main repository. You will change your current "main" branch (as demonstrated on the image below) to the "Pull-Request-Branch". This will prompt you to create a Pull Request.
+<img width="1631" height="1008" alt="image" src="https://github.com/user-attachments/assets/47c20d71-0ac3-4dc6-b8d2-9b963aacafa4" />
+
+
+By clicking "Create Pull-Request" you will be directed to an internet browser GitHub page. This is where you will name and describe your changes directly to me so that I may review them later and "merge" your changes to the main Community Server repository.
+<img width="1983" height="1354" alt="image" src="https://github.com/user-attachments/assets/653f13cb-1777-49d2-8ec8-e085a0eec250" />
+
+
+
+When I acess the GitHub page of the Community Server, it will have an open Pull Request. It will look as such when i go to review it (image below), except for that revert action, purely to keep the repo as it was before making this tutorial.
+<img width="1402" height="1047" alt="image" src="https://github.com/user-attachments/assets/69d2815c-2b44-4927-bfd9-6617948a1a7f" />
+
+
+Once I merge the Pull Request, it is officially integrated into the main repository, as seen below. I will then take the now updated main repository and personally update the Server files onto Virtual Machine that HB is allowing us to host from. I can't quite promise a especific frequency as to how often I will do that, but it for the sake of having one, i'll guarantee a half-daily check up (every 1 or 2 days).
+<img width="1426" height="418" alt="image" src="https://github.com/user-attachments/assets/e8242c68-f100-46e4-baaa-9477a2a4e834" />
+
+
+
 1. Open GitHub Desktop
-2. Fetch Origin (To refresh local files)
+2. Pull/Fetch Origin (To refresh local files)
 3. Make changes
 4. Appropriately name and write the description of the changes in your commit
-5. Send Commit as a Pull Request for me to accept and merge into the main repository
+5. Open Pull Request for me to Review
 
-That's all really. Any and all communication in regards to server files are to be done externally, aka. most likely one of the ED discords. If anything major happens in terms of upkeep or moderation of these server files, please do contact me (Markus/A Dude on discord) (I'll probably know about it, but user feedback always gives better insight into the problem).
+That's all really. Any and all communication in regards to server files are to be done externally, aka. most likely one of the ED discords. If anything major happens in terms of upkeep or moderation of these server files, please do contact me (markus_adude on discord) (I'll probably know about it, but user feedback always gives better insight into the problem).
 
 
