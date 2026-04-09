@@ -166,21 +166,22 @@ At this point, the editing process is fully functional. All changes you make wil
 
 
 
-Having made your commit onto your own fork of the Community Server repository, you will be prompted to "Push Origin", this simply means to make your commit changes official in your own fork. It'll look as it does below, simply press push origin to confirm your commit.
+Having made your commit onto your own fork of the Community Server repository, you will be prompted to "Push Origin", this simply means to apply your commit changes in your own fork. It'll look as it does below, simply press push origin to apply your commit.
 <img width="1638" height="1001" alt="image" src="https://github.com/user-attachments/assets/0462afff-4f0b-48c6-80b2-34735637d170" />
 
 
 
-Now that you have your fork with the changes you wish to see, you need to create a pull request so that i may review your changes and adopt them to the actual Community Server main repository. You will change your current "main" branch (as demonstrated on the image below) to the "Pull-Request-Branch". This will prompt you to create a Pull Request.
-<img width="1631" height="1008" alt="image" src="https://github.com/user-attachments/assets/47c20d71-0ac3-4dc6-b8d2-9b963aacafa4" />
+Now that you have your fork with the changes you wish to see, you need to create a pull request so that i may review your changes and adopt them to the actual Community Server main repository. This can be done in your forks GitHub page as seen below
+<img width="948" height="376" alt="image" src="https://github.com/user-attachments/assets/305fd0cf-db7c-47c1-b19e-f59cd4d289b6" />
 
 
-By clicking "Create Pull-Request" you will be directed to an internet browser GitHub page. This is where you will name and describe your changes directly to me so that I may review them later and "merge" your changes to the main Community Server repository.
+
+By clicking "Create Pull-Request", you will be prompted to name and describe your changes directly to me so that I may review them later and "merge" your changes to the main Community Server repository. I only ask that you be as especific as you can regarding your changes to have a proper history of all changes made in this repository.
 <img width="1983" height="1354" alt="image" src="https://github.com/user-attachments/assets/653f13cb-1777-49d2-8ec8-e085a0eec250" />
 
 
 
-When I acess the GitHub page of the Community Server, it will have an open Pull Request. It will look as such when i go to review it (image below), except for that revert action, purely to keep the repo as it was before making this tutorial.
+When I acess the GitHub page of the Community Server, it will have an open Pull Request. It will look as the image below when i go to review it (except for that revert commit, that was purely to keep the repo as it was before making this tutorial).
 <img width="1402" height="1047" alt="image" src="https://github.com/user-attachments/assets/69d2815c-2b44-4927-bfd9-6617948a1a7f" />
 
 
