@@ -51,36 +51,6 @@
   ],
   "types": [
 	{
-      "displayName": "Castle Wars+",
-      "typeName": "Castle Wars",
-      "modPack": "Customization++",
-	  "minPlayersAllowed": 1,
-	  "maxPlayersAllowed": 16,
-	  "commands": [
-        "Server.Sprint 1",
-        "Server.UnlimitedSprint 1",
-        "Server.AssassinationEnabled 0",
-        "Server.TeamSize 1",
-        "Server.PodiumEnabled 0",
-        "Server.EmotesEnabled 1",
-        "Server.EmotesDuringPodiumEnabled 1",
-        "Server.KillCommandEnabled 1",
-        "Server.KillCommandDuringPodiumEnabled 1",
-		"Server.NumberOfTeams 2",
-		"Time.GameSpeed 1"
-      ],
-      "specificMaps": [
-		{
-          "displayName": "Fast CW 1.0",
-          "mapName": "Fast CW 1.0"
-        },
-		{
-          "displayName": "Palletfield",
-          "mapName": "Palletfield"
-        }
-		]
-    },
-	{
       "displayName": "Hot Pursuit",
       "typeName": "Hot Pursuit",
       "modPack": "Customization++",
