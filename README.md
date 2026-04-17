@@ -184,7 +184,7 @@ You will now notice that the symbol on the left of your "Current repository" has
 
 
 
-Now that you have applied (Push Origin) your changes (Commit) to your copy of the main repository (Fork), you need to create a Pull Request so that i may review your changes and adopt them to the Community Server main repository. This can be done through your Forks' GitHub page, as seen in the image below. (you can press the "View on GitHub" button to be directed directly to the repository, from there simply find your fork among whichever others there are)
+Now that you have applied (Push Origin) your changes (Commit) to your copy of the main repository (Fork), you need to create a Pull Request so that i may review your changes and adopt them to the Community Server main repository. This can be done through your Forks' GitHub page, as seen in the image below. (you can press the "View on GitHub" button to be directed directly to the repository, from there simply find your fork among whichever others there are.
 <img width="948" height="376" alt="image" src="https://github.com/user-attachments/assets/b5903d44-d5a9-47e7-91fc-9ab18c4feed8" />
 
 
@@ -195,7 +195,7 @@ By clicking "Create Pull-Request" or "Open Pull-Request" you will be directed to
 
 
 
-When I acess the GitHub page of the Community Server, it will have an open Pull Request. It will look as such when i go to review it (image below), except for that revert action, purely to keep the repo as it was before making this tutorial.
+When I acess the GitHub page of the Community Server, it will have an open Pull Request. It will look as such when i go to review it (image below).
 <img width="2174" height="1289" alt="image" src="https://github.com/user-attachments/assets/aa933d9a-404d-49d6-8a2c-cf7d3e59d0c3" />
 
 
