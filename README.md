@@ -46,16 +46,14 @@ The GameMode rotation on a server is primarily controlled by the "voting.json" f
         "Server.Sprint 1",
         "Server.UnlimitedSprint 1",
         "Server.AssassinationEnabled 0",
+		"Server.NumberOfTeams 2",
         "Server.TeamSize 1",
         "Server.PodiumEnabled 0",
         "Server.EmotesEnabled 1",
         "Server.EmotesDuringPodiumEnabled 1",
         "Server.KillCommandEnabled 1",
         "Server.KillCommandDuringPodiumEnabled 1",
-		"Server.NumberOfTeams 2",
-		"Voting.ReloadJson",
-		"Time.GameSpeed 1",
-		"Voting.ReloadJson"
+		"Time.GameSpeed 1"
       ],
       "specificMaps": [
 		{
